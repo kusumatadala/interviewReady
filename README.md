@@ -3,6 +3,7 @@
 A practical public learning journal for Java/Spring backend, Java + React full-stack, distributed systems, fintech platforms, and production applied AI interviews.
 
 ## Latest plan
+- [Saturday, 14 November 2026 — idempotent Spring REST, Kafka outbox, intervals/heap DSA and Docker debugging](daily/2026-11-14.md)
 - [Friday, 13 November 2026 — concurrency, Kafka outbox, sliding-window DSA and Docker](daily/2026-11-13.md)
 - [Thursday, 12 November 2026 — 3-hour interview preparation](daily/2026-11-12.md)
 
