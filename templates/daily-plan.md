@@ -1,82 +1,40 @@
-# Interview Preparation — YYYY-MM-DD
+# Session NNN — <Focused topic>
 
-**Theme:**  
-**Time budget:** 150–180 focused minutes  
-**Target roles:** Java/Spring backend · Java + React full-stack · fintech platform · applied AI
+**40 minutes exactly · Session NNN of 064 · Phase: <Phase>**
 
-## Finish-line outcomes
-- [ ] Outcome 1 — practical, observable
-- [ ] Outcome 2 — measurable explanation or test
-- [ ] Outcome 3 — interview rehearsal
+**Prerequisite:** Session <previous number> (if not ready, revisit without changing sequence).  
+**Goal:** One measurable skill, not a day-based checklist.  
+**Reference:** One or two primary resources, not a long course.
 
-## 0. Warm-up — 10 minutes
-- [ ] Review yesterday's reflection and unresolved blockers.
-- [ ] Pick one original small project or practice problem.
-- [ ] Rate starting confidence on today's topics (1–5).
-**Done when:**
+## 1. Recall / learn — 5 minutes
+- [ ] Explain the concept you will use in your own words.
+- [ ] Read one focused documentation example or recall the previous session's mistake.
 
-## 1. Java / Spring / distributed systems — 45 minutes
-**Study (10 min)**
-- [ ]
-**Build or design (25 min)**
-- [ ]
-**Explain aloud (10 min)**
-- [ ]
-**Done when:**  
-**Primary reference:**
+## 2. Practice — 25 minutes
+- [ ] **Exercise:** <Precise implementation, DSA problem, diagram, test or debugging task>
+- [ ] **Success conditions:** <Specific input, output and test cases>
+- [ ] **One failure/edge case:** <Case and expected handling>
+- [ ] Don't look up a complete solution until a documented first attempt.
 
-## 2. Targeted stack skill — 40 minutes
-**Read (10 min)**
-- [ ]
-**Practice (20 min)**
-- [ ]
-**Test and explain (10 min)**
-- [ ]
-**Done when:**  
-**Primary reference:**
+## 3. Verify / explain — 10 minutes
+- [ ] Run tests or validate the diagram/design against one failure scenario.
+- [ ] Explain trade-offs, complexity or failure modes in two minutes aloud.
+- [ ] Record **Done / Partial / Blocked**, actual evidence and what to fix on the next attempt.
 
-## 3. Java DSA — 35 minutes
-- [ ] Practice problem and original solution (20 min)
-- [ ] Boundary cases and tests (10 min)
-- [ ] Time/space complexity aloud (5 min)
-**Done when:**
+**Definition of done:** <Test result, working behavior, measured improvement or scored explanation>.  
+**Deliverable:** `<original, public-safe file>` or private notes, as appropriate.
 
-## 4. Practical tooling / Docker / deployment — 30 minutes
-- [ ] Hands-on exercise:
-- [ ] Capture evidence:
-- [ ] One failure scenario and fix:
-**Done when:**  
-**Primary reference:**
+### Mock interview prompt
+**Question:** <Focused, realistic question>  
+**Good answer includes:** <3–5 checkable points>.
 
-## 5. Behavioral + reflection — 20 minutes
-- [ ] Speak one truthful STAR story (10 min).
-- [ ] Self-grade two mock interview questions (5 min).
-- [ ] Write strongest insight, blocker, and next action (5 min).
-**Done when:**
+### Progress
+- Status: **Not started**
+- Evidence / test output: 
+- My explanation score (0–5): 
+- Blocker, if any: 
+- Next action: 
 
-## Mock questions
-1. **Question:**  
-   **Answer checklist:** 
-   - [ ] 
-   - [ ] 
-2. **Question:**  
-   **Answer checklist:**
-   - [ ] 
-   - [ ] 
+**Next:** Session <NNN+1> **only after completing** this session. Mark the checkbox in [progress/STATUS.md](../progress/STATUS.md) when done.
 
-## Progress log
-
-| Module | Completed / Partial / Not started | Actual minutes | Evidence / blocker |
-|---|---|---:|---|
-| Setup | Not started | 0 | |
-| Core concepts | Not started | 0 | |
-| Targeted skill | Not started | 0 | |
-| DSA | Not started | 0 | |
-| Tooling | Not started | 0 | |
-| Interview/retrospective | Not started | 0 | |
-
-## Carry-forward
-1. 
-2. 
-
-> This is a public repository. Publish original code and public-safe notes only; never include employer-confidential material, customer data, credentials or private job-search information.
+> Public-safe original examples only. No employer data/code, credentials, private application records, or unverified experience claims.
