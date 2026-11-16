@@ -1,46 +1,51 @@
-# InterviewReady — Daily Software Engineering Interview Prep
+# InterviewReady — Sequential 40-Minute Interview Preparation
 
-A practical public learning journal for Java/Spring backend, Java + React full-stack, distributed systems, fintech platforms, and production applied AI interviews.
+**Start here: [Session 001 — Java collections](sessions/001.md)**
 
-## Latest plan
-- [Monday, 16 November 2026 — race-safe Spring API, Kafka outbox, graph/binary-search DSA, Docker smoke test](daily/2026-11-16.md)
-- [Sunday, 15 November 2026 — concurrency isolation, Kafka recovery, binary-search/graph DSA, Docker troubleshooting](daily/2026-11-15.md)
-- [Saturday, 14 November 2026 — idempotent Spring REST, Kafka outbox, intervals/heap DSA and Docker debugging](daily/2026-11-14.md)
-- [Friday, 13 November 2026 — concurrency, Kafka outbox, sliding-window DSA and Docker](daily/2026-11-13.md)
-- [Thursday, 12 November 2026 — 3-hour interview preparation](daily/2026-11-12.md)
+This repository is a **numbered, self-paced learning path** for software engineering interviews. **Nothing is assigned to a calendar date.** You may do one session, repeat it, or complete several on the same day.
 
-## How to use
-1. Open today's dated plan; work through the checkboxes for **150–180 minutes**.
-2. Build or explain the exercise before viewing sample solutions.
-3. Record honest outcomes: `Completed`, `Partial`, or `Not started`.
-4. Write down evidence (tests, measurements, diagrams, notes) and one thing to improve tomorrow.
-5. Prioritize the weak areas revealed by practice and interviews, not just new frameworks.
+## How this works
 
-## Repository structure
-- `daily/YYYY-MM-DD.md` — daily timeboxed checklist, exercises, interview questions, resources, and reflection.
-- `templates/daily-plan.md` — reusable format for subsequent plans.
-- `README.md` — index and guide.
+1. Open [the 64-session ROADMAP](ROADMAP.md).
+2. Open the **first unchecked session** in [Progress](progress/STATUS.md).
+3. Spend **40 minutes** per session: **5 min recall**, **25 min hands-on practice**, **10 min tests + explanation + reflection**.
+4. Mark a session complete **only after actually doing it**, with evidence or a clear self-score. If blocked, stay on the same number.
+5. Continue to the next number. Never skip or advance because a day passed.
+6. The Daily Interview Prep reminder runs around 8 AM IST and should link the first unfinished session. It does **not** mark progress or create dated lesson files.
 
-## Focus tracks
-1. Java 17, collections, concurrency, JVM, and performance.
-2. Spring Boot 3, JPA/Hibernate, transactions, tests and REST.
-3. Kafka, resilience, idempotency, retries and system design.
-4. Data structures and algorithms in Java.
-5. React/TypeScript and end-to-end API design.
-6. Docker, deployment and cloud fundamentals (**practice areas; do not assume prior experience**).
-7. Authentic STAR answers, communication and trade-offs.
-8. RAG, LLM tools, MCP, evaluation and applied AI engineering.
+## Curriculum phases
 
-## Study references
-- [Java 17 docs](https://docs.oracle.com/en/java/javase/17/docs/)
-- [Spring transactions](https://docs.spring.io/spring-framework/reference/data-access/transaction.html)
-- [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/)
-- [Apache Kafka docs](https://kafka.apache.org/documentation/)
-- [Docker Get Started](https://docs.docker.com/get-started/)
-- [NeetCode roadmap](https://neetcode.io/roadmap)
-- [React Learn](https://react.dev/learn)
+| Session numbers | Topics |
+|---|---|
+| 001–008 | Java, DSA, Spring REST, SQL, Kafka, Docker, React, STAR foundations |
+| 009–016 | Java concurrency, Spring transactions/JPA, resilient consumers, testing, payments mock |
+| 017–024 | Thread pools, binary search, transaction isolation, payment ledger, outbox, Docker Compose |
+| 025–032 | JVM, graphs/heaps, Kafka offsets, caching, Kubernetes, cloud, design mock |
+| 033–040 | TypeScript/React, authorization, Spring Security, trees/heaps, full-stack |
+| 041–048 | Python services, LLM APIs, RAG, evaluation, MCP agents, production AI |
+| 049–056 | Service design, CQRS, backpressure, observability, multi-region, DP, incidents |
+| 057–064 | Java modernization, performance, Kafka tracing, testing strategy, mocks |
 
-## Daily update
-A ChatGPT daily preparation automation is set for approximately 8:00 AM **Asia/Kolkata**, starting 13 November 2026. It targets `kusumatadala/interviewReady` and intends to add or update `daily/YYYY-MM-DD.md`. GitHub publication is successful only when the specific dated file is verified on GitHub; the automation is not GitHub Actions.
+**Full roadmap:** [ROADMAP.md](ROADMAP.md)  
+**Reusable session template:** [templates/daily-plan.md](templates/daily-plan.md) (historical filename; now a **single-session** 40-minute template)  
+**Current progress:** [progress/STATUS.md](progress/STATUS.md)
 
-> **Public repo safety:** Never upload employer-confidential code, data, internal architecture, credentials, private application details, contact information, or personal identification.
+## Practical targets
+
+Java 17/Spring Boot 3; Kafka and event-driven reliability; PostgreSQL/JPA; Java DSA; React/TypeScript; Docker, Kubernetes and cloud fundamentals; production applied AI/RAG/MCP; fintech architecture; and truthful behavioral communication.
+
+Docker, specific cloud services, Terraform and similar tools are **practice gaps until demonstrated**—do not present unverified expertise as work experience.
+
+## Official learning references
+
+- [Java 17 docs](https://docs.oracle.com/en/java/javase/17/docs/) · [Spring](https://docs.spring.io/spring-framework/reference/) · [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/)
+- [Kafka](https://kafka.apache.org/documentation/) · [PostgreSQL](https://www.postgresql.org/docs/current/)
+- [Docker](https://docs.docker.com/get-started/) · [Kubernetes](https://kubernetes.io/docs/concepts/)
+- [React](https://react.dev/learn) · [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [LeetCode](https://leetcode.com/problemset/) · [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+
+## Archive
+
+Earlier date-based exercises are preserved at [daily/2026-11-16.md](daily/2026-11-16.md) and other files under `daily/`; they are **not** the active curriculum and will not dictate session advancement.
+
+> Public repository: never publish confidential employer code or architecture, real customer data, credentials, private job applications, or personal contact details.
