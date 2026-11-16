@@ -3,6 +3,7 @@
 A practical public learning journal for Java/Spring backend, Java + React full-stack, distributed systems, fintech platforms, and production applied AI interviews.
 
 ## Latest plan
+- [Monday, 16 November 2026 — race-safe Spring API, Kafka outbox, graph/binary-search DSA, Docker smoke test](daily/2026-11-16.md)
 - [Sunday, 15 November 2026 — concurrency isolation, Kafka recovery, binary-search/graph DSA, Docker troubleshooting](daily/2026-11-15.md)
 - [Saturday, 14 November 2026 — idempotent Spring REST, Kafka outbox, intervals/heap DSA and Docker debugging](daily/2026-11-14.md)
 - [Friday, 13 November 2026 — concurrency, Kafka outbox, sliding-window DSA and Docker](daily/2026-11-13.md)
